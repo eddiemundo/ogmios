@@ -10,7 +10,6 @@ with lib; {
     package = mkOption {
       description = "Ogmios package";
       type = package;
-      default = pkgs.ogmios;
     };
 
     user = mkOption {
