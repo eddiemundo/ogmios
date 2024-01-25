@@ -112,7 +112,7 @@ with lib; {
         RemoveIPC = true;
         PrivateMounts = true;
         SystemCallArchitectures = "native";
-        SystemCallFilter = [ "~@cpu-emulation @debug @keyring @mount @obsolete @privileged @setuid @resources" ];
+        SystemCallFilter = [ "~@cpu-emulation @debug @keyring @mount @obsolete @privileged @setuid mbind migrate_pages move_pages nice sched_setaffinity sched_setattr sched_setparam sched_setscheduler setpriority setrlimit" ];
         MemoryDenyWriteExecute = true;
       };
     };
