@@ -72,7 +72,7 @@
         ogmios = flake.${system}.packages."ogmios:exe:ogmios";
         default = self.packages.${system}.ogmios;
       });
-      nixosModules.kupo = { pkgs, lib, ... }: {
+      nixosModules.ogmios = { pkgs, lib, ... }: {
         imports = [ ./ogmios-nixos-module.nix ];
         services.ogmios.package = lib.mkOptionDefault self.packages.${pkgs.system}.ogmios;
       };
