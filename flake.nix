@@ -9,27 +9,6 @@
       flake = false;
     };
     iohk-nix.url = "github:input-output-hk/iohk-nix";
-
-    # TODO: cleanup after cardano-node inputs are fixed
-    # cardano-node = {
-    #   url = "github:input-output-hk/cardano-node/1.35.3";
-    #   inputs.cardano-node-workbench.follows = "blank";
-    #   inputs.node-measured.follows = "blank";
-    # };
-    # blank.url = "github:divnix/blank";
-
-    # TODO: remove after new testnets land in cardano-node
-    # cardano-configurations = {
-    #   url = "github:input-output-hk/cardano-configurations";
-    #   flake = false;
-    # };
-
-
-    # flake-compat = {
-    #   url = "github:edolstra/flake-compat";
-    #   flake = false;
-    # };
-
   };
 
   outputs = { self, nixpkgs, haskell-nix, iohk-nix, CHaP, ... }@inputs:
