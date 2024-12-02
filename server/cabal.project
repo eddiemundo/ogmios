@@ -94,7 +94,7 @@ source-repository-package
   type: git
   location: https://github.com/CardanoSolutions/cardano-ledger
   tag: 8112c9872f52e5147e28fbdd76a034cdb6eb7fea
-  --sha256: sha256-Aed1QrKsdY/srz0CX1x3yQ7NF+1vIwv+c0bRRw+Oi9M=
+  --sha256: sha256-qzey+5bwR1RpU1fx0jOMpaCAjyL4iFMwE7+PQ5kr/1M=
   subdir:
     eras/alonzo/impl
     eras/babbage/impl
