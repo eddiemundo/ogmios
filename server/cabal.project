@@ -39,8 +39,6 @@ packages:
   modules/contra-tracers
   modules/fast-bech32
   modules/git-th
-  modules/hjsonpointer
-  modules/hjsonschema
   modules/hspec-json-schema
   modules/json-rpc
 
